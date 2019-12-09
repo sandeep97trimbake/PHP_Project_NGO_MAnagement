@@ -1,0 +1,214 @@
+	body{
+		background-color:yellow;
+	}
+	#base1
+	{
+		text-align:center;
+	}
+	#base1 h1{
+		height:50px;
+		width:400px;
+		background-color:#00FF00;
+		border-radius:40px 40px;
+		box-shadow:0px 4px 8px 0px rgb(0,0,0.5); 
+		padding-top:10px;
+		color:black;
+		position:absolute;
+		left:600px;
+	}
+	.date{
+		position:absolute;
+		top:30px;
+		left:1320px;
+		height:50px;
+		width:120px;
+		background-color:#00FF00;
+		box-shadow:0px 4px 8px 0px rgb(0,0,0.5); 
+		padding-top:15px;
+		padding-left:10px;
+		color:black;
+		border-radius:0px 20px;
+		padding-left:20px;
+	}
+
+	/* Menu */
+	#base2
+	{
+		height:300px;
+		width:12%;
+		background-color:inherit;
+		position:absolute;
+		top:150px;
+		left:20px;
+		padding-top:10px;
+		 
+	} 
+	button{
+		font-size:20px;    
+		border:none;
+		outline:none;
+		color:black;
+		font-family: inherit;
+		margin-bottom:15px;
+		height:40px;
+		width:150px;
+		margin-left:10px;
+		margin-right:10px;
+		background-color:#00FF00;
+		border-radius:0px 20px;
+		box-shadow:0px 4px 8px 0px rgb(0,0,0.5); 
+		
+	}
+
+	/*patient*/
+	#patient
+	{
+		overflow:hidden;
+		float:left;
+		color:black;
+	}
+	#psub
+	{
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+	#psub #a1
+	{
+		float: none;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+	#psub #a1:hover
+	{
+		background-color:#00FF00;
+	}
+	#patient:hover #psub
+	{
+		display:block;
+		left:170px;
+		top:30px;
+	}
+	#patient #b1:hover{
+		background-color:#00FF00;
+		height:70px;
+	}
+
+	/* Member  */
+	#member
+	{
+		overflow:hidden;
+		float:left;
+	}
+	#msub
+	{
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width:160px;
+		box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index:2;
+	}
+	#msub #a2
+	{
+		float: none;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+	#msub #a2:hover
+	{
+		background-color:#00FF00;
+	}
+	#member:hover #msub
+	{
+		display:block;
+		left:170px;
+		top:80px;
+	}
+	#member #b2:hover{
+		background-color:#00FF00;
+		height:70px;
+	}
+	/* report */
+	#report
+	{
+		overflow:hidden;
+		float:left;
+	}
+	#rsub
+	{
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+	#rsub #a3
+	{
+		float: none;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+	#rsub #a3:hover
+	{
+		background-color:#00FF00;
+	}
+	#report:hover #rsub
+	{
+		display:block;
+		left:170px;
+		top:130px;
+	}
+	#report #b3:hover{
+		background-color:#00FF00;
+		height:70px;
+	}		
+	/* Schedule*/
+	
+	#schedule{
+		background-color:inherit;
+		position:absolute;
+		top:130px;	
+		left:1100px;
+		height:600px;
+		width:400px;
+	}
+	#schedule .t1{
+		height:100%;
+		width:100%;
+	}
+	.t1 .thh1{
+		background-color:#00FF00;	
+		height:10%;
+		border-radius:0px 20px;
+		box-shadow:0px 4px 8px 0px rgb(0,0,0.5); 
+	}
+	.t1 .tdd1{
+		background-color:yellow;
+		border:none;
+		height:450px;
+		width:100%;
+		box-shadow:0px 4px 8px 0px rgb(0,0,0.5);
+	}
+	.t1 .bb1{
+		background-color:#00FF00;	
+		height:20px;
+		width:50px;
+		border:none;
+		border-radius:0px 10px;
+		margin-left:20px;
+		box-shadow:0px 4px 8px 0px rgb(0,0,0.5); 
+	}
